@@ -1,0 +1,36 @@
+{
+    "name": "rblxassetdiscounter",
+    "version": "1.0.0",
+    "description": "Roblox CLI Utility",
+    "main": "dist/index.js",
+    "bin": {
+        "rblxdiscount": "./entry.cmd"
+    },
+    "type": "module",
+    "scripts": {
+        "build": "npx tsc",
+        "start": "node dist/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "RAMPAGE Interactive",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.7.2",
+        "chalk": "^5.3.0",
+        "commander": "^12.1.0",
+        "config": "^3.3.12",
+        "figlet": "^1.7.0",
+        "fs": "^0.0.1-security",
+        "noblox.js": "^6.1.1",
+        "open": "^10.1.0",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "@types/chalk": "^2.2.0",
+        "@types/config": "^3.3.4",
+        "@types/dotenv": "^8.2.0",
+        "@types/figlet": "^1.5.8",
+        "@types/node": "^20.14.12",
+        "typescript": "^5.5.4"
+    }
+}
